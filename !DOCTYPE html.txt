@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrightSight – Helping Blind Children</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #3a0d0d;
+    }
+
+    header {
+      background-color: #800000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-bottom: 4px solid #800000;
+    }
+
+    .content {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .content h2 {
+      color: #800000;
+      margin-bottom: 20px;
+    }
+
+    .donate-button {
+      background-color: #800000;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .donate-button:hover {
+      background-color: #a52a2a;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BrightSight Foundation</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#donate">Donate</a>
+      <a href="#about">About Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1589831451425-3e7d8bb0f5e4?fit=crop&w=1600&q=80" alt="Blind children holding hands and smiling">
+  </section>
+
+  <section class="content">
+    <h2>Empowering Blind Children Through Braille Education</h2>
+    <p>
+      At BrightSight Foundation, we believe every child deserves the right to learn, grow, and dream. 
+      We're dedicated to supporting blind children by providing them with the tools and education needed to read and write in Braille — opening a world of independence and opportunity.
+    </p>
+    <p>
+      Your donations go directly toward Braille books, teaching tools, and training programs for children in underserved communities. 
+      Together, we can light up their world with the gift of literacy.
+    </p>
+
+    <a name="donate"></a>
+    <button class="donate-button" onclick="window.location.href='https://www.example.com/donate'">Donate Now</button>
+  </section>
+
+  <footer>
+    &copy; 2025 BrightSight Foundation | Registered NGO | All Rights Reserved
+  </footer>
+
+</body>
+</html>
